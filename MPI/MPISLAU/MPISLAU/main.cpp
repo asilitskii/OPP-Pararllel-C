@@ -113,6 +113,7 @@ int main(int argc, char** argv) {
     partStarts = (int*)malloc(numOfProcs * sizeof(int));
     matrixPartSizes = (int*)malloc(numOfProcs * sizeof(int));
     matrixPartStarts = (int*)malloc(numOfProcs * sizeof(int));
+
     if (rankOfProc == 0) {
         A = initMatrix(MATRIX_SIZE, MATRIX_SIZE);
         b = initVector(MATRIX_SIZE);
