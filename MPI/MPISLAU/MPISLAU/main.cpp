@@ -74,6 +74,7 @@ double* calcNextSolution(double* A_part, double* xCurrent, double* b_part, int s
 
     double* currentApproximation = calcNextAproximation(A_part, xCurrent, b_part, size,
                                                         resultOfSubtitution, partSize, partSizes, partStarts);
+
     //double* currentApproximation = initVector(size);
     /*fprintf(stderr, "app0 %lf\n", currentApproximation[0]);
     fprintf(stderr, "app1 %lf\n", currentApproximation[1]);
