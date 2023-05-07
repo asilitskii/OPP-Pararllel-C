@@ -1,4 +1,4 @@
-# Лабораторные работы по курсу "Основы параллельного программирования на языке C":
+# Lab works of "C parallel programming basics" course:
 * [MPI communications speed analysing](MPISpeedTest)
 * [System's of linear equations iterative solution](SLAESolution)
-* [Matrix multiplication with MPI](MPIMatrixMult)
+* [Matrix multiplication using MPI](MPIMatrixMult)
