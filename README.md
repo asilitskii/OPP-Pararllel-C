@@ -2,3 +2,4 @@
 * [MPI communications speed analysing](MPISpeedTest)
 * [System's of linear equations iterative solution](SLAESolution)
 * [Matrix multiplication using MPI](MPIMatrixMult)
+* [Game of life MPI](GameOfLifeMPI)
