@@ -55,7 +55,7 @@ void generateTaskWeights(int* taskWeights, int currentIteration){
 void askForTasks(int* tasks){
     for(int j = 0; j < numOfProcs; j++){
         int additionalTasks;
-        if(j != rankOfProc && j < numOfProcs){
+        if(j != rankOfProc){
             //fprintf(stderr, "asking: %d, numOfProcs: %d\n", j, numOfProcs);
             MPI_Send(&rankOfProc, 1, MPI_INT, j, ASKING_TAG, MPI_COMM_WORLD);
             MPI_Recv(&additionalTasks, 1, MPI_INT, j, TASK_NUMBER_REPLY_TAG, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
